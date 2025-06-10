@@ -28,7 +28,7 @@
 
 ---
 
-## 📸 Screenshotl
+## 📸 Screenshot
 
 ![Screenshot Gameplay](/Screenshot/1.png)
 ![Screenshot Gameplay](/Screenshot/2.png)
