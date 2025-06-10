@@ -15,7 +15,7 @@
 
 ## 🕹️ Cara Main
 
-- Buka link ini untuk memainkanya
+- Buka link ini untuk memainkanya https://putradwic.github.io/CoinHunter/
 - (Optional) Zoom out website 75% atau lebih
 - Kontrol:
     - `← / → / AD` = Gerak kiri / kanan  
