@@ -245,7 +245,7 @@ var scenePlay = new Phaser.Class({
     };
     this.physics.add.overlap(this.player, coins, collectCoin, null, this);
 
-    var currentLevel = 4;
+    var currentLevel = 1;
     this.gameStarted = false;
 
     var prepareWorld = function () {
