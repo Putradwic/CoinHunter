@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="asset/image/png" href="/Assets/images/Koin.png">
+    <script src="https://cdn.jsdelivr.net/npm/phaser@3.55.2/dist/phaser.min.js"></script>
+    <script>
+      var layoutSize = { w: 1024, h: 768 };
+      var X_POSITION;
+      var Y_POSITION;
+      var relativeSize;
+    </script>
+    <script src="scenePlay.js"></script>
+    <style>
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+      }
+
+      canvas {
+        display: block;
+      }
+    </style>
+
+    <title>Coin Hunter</title>
+  </head>
+  <body>
+    <script>
+      const config = {
+        type: Phaser.AUTO,
+        width: 1024,
+        height: 768,
+        scene: [scenePlay],
+        physics: {
+          default: "arcade",
+          arcade: {
+            gravity: { y: 0 },
+            debug: false,
+          },
+        },
+        scele: {
+          autoCenter: Phaser.Scale.CENTER_BOTH,
+        },
+      };
+      const game = new Phaser.Game(config);
+    </script>
+  </body>
+</html>
